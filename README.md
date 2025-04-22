@@ -26,6 +26,7 @@
 |--|
 |[`Codigo Sensor de Humedad Suelo, DHT11 y Buzzer.py`](/CodigoSistemaRiego/CodigoFinalDHT11_Humedad_Buzzer.py)|
 |[`Codigo Sensor de Nivel de Agua  y Humedad Suelo.py`](/CodigoSistemaRiego/SensorHumedadYNivelAgua.py)|
+|[`Codigo Sensor de flujo de agua  y Control de relevador.py`](/CodigoMicroPythonSistemaRiego/Codigo_control_de_relevador_y_flujo_de_agua.py)|
 
 ### Codigo del Flujo de Node Red.
 
