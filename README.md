@@ -22,10 +22,10 @@
 |Luis Manuel|||
 
 ## Codigos de sensores sistema de Riego.
-
-[Codigo Sensor de Humedad Suelo, DHT11 y Buzzer](/CodigoSistemaRiego/CodigoFinalDHT11_Humedad_Buzzer.py)
-[`Codigo Sensor de Nivel de Agua  y Humedad Suelo.py`](/CodigoSistemaRiego/SensorHumedadYNivelAgua.py)
-
+|**Codigo**|
+|--|
+|[Codigo Sensor de Humedad Suelo, DHT11 y Buzzer](/CodigoSistemaRiego/CodigoFinalDHT11_Humedad_Buzzer.py)|
+|[`Codigo Sensor de Nivel de Agua  y Humedad Suelo.py`](/CodigoSistemaRiego/SensorHumedadYNivelAgua.py)|
 
 ## Coevaluación.
 
