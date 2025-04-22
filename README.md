@@ -1,20 +1,12 @@
 # Proyecto de Sistema de Riego automatizado.
 
 ## Herramientas utilizadas. 
-
-### Sensores  
-
-1. Sensor de Humedad.
-2. Sensor de Flujo de Agua.
-3. Sensor de Temperatura DHT11.
-4. Sensor de Lluvia.
-
-### Actuadores
-
-1. Leds
-2. Relevador
-3. Buzzer Activo
-4. Bomba de Agua
+|**Sensores**|**Actuadores**|
+|--|--|
+|1. Sensor de Humedad.|1. Leds|
+|2. Sensor de Flujo de Agua.|2. Relevador|
+|3. Sensor de Temperatura DHT11.|3. Buzzer Activo|
+|4. Sensor de Lluvia.|4. Bomba de Agua|
 
 ## Actividades de clase.
 
@@ -23,10 +15,11 @@
 [Link Carcasa]()
 
 ### Sensores Hojas de Cálculo.
-
-[Sensor DHT11]()
-
-[Codigo](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)
+|**Nombre**|**Sensor**|**Codigo**|
+|--|--|--|
+|Cesar Abraham|[Sensor DHT11]()|[Codigo](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
+|Isaac|||
+|Luis Manuel|||
 
 ## Codigos de sensores sistema de Riego.
 
