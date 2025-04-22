@@ -18,7 +18,8 @@
 |**Nombre**|**Sensor**|**Codigo**|
 |--|--|--|
 |Cesar Abraham|[Sensor DHT11]()|[Codigo](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
-|Isaac||[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
+|Isaac|
+[![Ver video](https://drive.google.com/thumbnail?id=1llpEefqhAhDUOVI9CU5XQdxaRRH--hib)](https://drive.google.com/uc?export=preview&id=1llpEefqhAhDUOVI9CU5XQdxaRRH--hib)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
 |Luis Manuel|||
 
 ## Codigos de sensores sistema de Riego.
