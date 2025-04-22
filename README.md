@@ -12,12 +12,12 @@
 
 ### Carcasa
 
-[Link Carcasa]()
+[Link Carcasa](https://www.tinkercad.com/things/ejPxAvtqroV-frantic-jofo/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
 ### Sensores Hojas de Cálculo.
 |**Nombre**|**Sensor**|**Codigo**|
 |--|--|--|
-|Cesar Abraham|[Sensor DHT11]()|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
+|Cesar Abraham|[Sensor DHT11](https://drive.google.com/file/d/1WExeR7v4lGsBS89xV08NBe9lGUByHLjx/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
 |Isaac|[![`Sensor Nivel de Agua`](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
 |Luis Manuel|||
 
@@ -26,6 +26,10 @@
 |--|
 |[`Codigo Sensor de Humedad Suelo, DHT11 y Buzzer.py`](/CodigoSistemaRiego/CodigoFinalDHT11_Humedad_Buzzer.py)|
 |[`Codigo Sensor de Nivel de Agua  y Humedad Suelo.py`](/CodigoSistemaRiego/SensorHumedadYNivelAgua.py)|
+
+### Codigo del Flujo de Node Red.
+
+[Flujo de Node-Red](/CodigoFlujoNodeRed/flujo)
 
 ## Coevaluación.
 

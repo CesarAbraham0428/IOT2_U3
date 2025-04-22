@@ -1,0 +1,1356 @@
+[
+    {
+        "id": "ebd507082ead5a6e",
+        "type": "tab",
+        "label": "Sensor de flujo de agua",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bdd40c2e4ca0e3d6",
+        "type": "tab",
+        "label": "Relevador",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d3b98b29e74d4538",
+        "type": "tab",
+        "label": "Leds",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0d102514532e526a",
+        "type": "tab",
+        "label": "Control de relvador automatico",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "201d42be487cd05b",
+        "type": "tab",
+        "label": "Senso nivel de agua",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5d9f58b548c58954",
+        "type": "tab",
+        "label": "Sensor humedad del suelo",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ae5f1b6d080b4834",
+        "type": "tab",
+        "label": "Sensor DHT11",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6797fa4f360495b0",
+        "type": "tab",
+        "label": "Control de Alarma",
+        "disabled": false,
+        "info": "Flujo para controlar la alarma del sistema",
+        "env": []
+    },
+    {
+        "id": "temperatura_notificacion",
+        "type": "tab",
+        "label": "Notificaciones Temperatura",
+        "disabled": false,
+        "info": "Flujo para enviar notificaciones de temperatura baja"
+    },
+    {
+        "id": "58e8acd2af0fc2ef",
+        "type": "mqtt-broker",
+        "name": "broker.emqx.io",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0db620e6516a50ee",
+        "type": "postgreSQLConfig",
+        "name": "postgress_i5ux",
+        "host": "dpg-cvmbam95pdvs73ev2f0g-a.oregon-postgres.render.com",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "postgress_i5ux",
+        "databaseFieldType": "str",
+        "ssl": "true",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgress",
+        "userFieldType": "str",
+        "password": "ibYkjJdcmL8ld6G6d5Lp6cNamTDOLDJY",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "ui_dashboard_group",
+        "type": "ui_group",
+        "name": "Monitoreo de flujo de agua",
+        "tab": "ui_dashboard_tab",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ui_dashboard_tab",
+        "type": "ui_tab",
+        "name": "Gasto de agua",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cdd1227a2ec8bb14",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "aa20f74beae7360f",
+        "type": "ui_group",
+        "name": "Control de bomba",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "af90df2d66e6ce83",
+        "type": "ui_spacer",
+        "z": "ebd507082ead5a6e",
+        "name": "spacer",
+        "group": "aa20f74beae7360f",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "306517569a2a554f",
+        "type": "ui_spacer",
+        "z": "ebd507082ead5a6e",
+        "name": "spacer",
+        "group": "aa20f74beae7360f",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "eacb07a441bb4fae",
+        "type": "ui_spacer",
+        "z": "ebd507082ead5a6e",
+        "name": "spacer",
+        "group": "aa20f74beae7360f",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6231d6d7a04b6b61",
+        "type": "ui_spacer",
+        "z": "ebd507082ead5a6e",
+        "name": "spacer",
+        "group": "aa20f74beae7360f",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "broker-config",
+        "type": "mqtt-broker",
+        "name": "MQTT Broker",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "node-red-client",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "postgres-config",
+        "type": "postgresdb",
+        "port": "5432",
+        "ssl": false
+    },
+    {
+        "id": "7f12a8951ab97da4",
+        "type": "postgresql",
+        "z": "ebd507082ead5a6e",
+        "name": "postgress_i5ux",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES ('1','3','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 620,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca7d6aecf0390656",
+        "type": "mqtt in",
+        "z": "ebd507082ead5a6e",
+        "name": "",
+        "topic": "sistema_de_riego_inteligente/placa_1_agua",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 220,
+        "wires": [
+            [
+                "7f12a8951ab97da4",
+                "6ff1f6c2046938b4",
+                "82466ce6e4162c91"
+            ]
+        ]
+    },
+    {
+        "id": "6ff1f6c2046938b4",
+        "type": "ui_gauge",
+        "z": "ebd507082ead5a6e",
+        "name": "Flujo de Agua",
+        "group": "ui_dashboard_group",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Flujo de agua a tiempo real",
+        "label": "L/min",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "82466ce6e4162c91",
+        "type": "ui_chart",
+        "z": "ebd507082ead5a6e",
+        "name": "",
+        "group": "ui_dashboard_group",
+        "order": 2,
+        "width": 6,
+        "height": 3,
+        "label": "Gasto de agua por semana",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 570,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "564c6a923f052105",
+        "type": "postgresql",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "postgress_i5ux",
+        "query": "INSERT INTO actuator_details (actuator_id, user_id, value) VALUES ('1','3','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 400,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11fbc30443fe3a0c",
+        "type": "mqtt in",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "ValorRelevador",
+        "topic": "sistema_de_riego_inteligente/placa_1_rele",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "564c6a923f052105",
+                "16aa976e817286a6"
+            ]
+        ]
+    },
+    {
+        "id": "16aa976e817286a6",
+        "type": "ui_switch",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "Control manual de la bomba de agua",
+        "label": "Control manual de la bomba de agua",
+        "tooltip": "",
+        "group": "ui_dashboard_group",
+        "order": 3,
+        "width": 6,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "sistema_de_riego_inteligente/placa_1_rele/set",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "4440356d0df79f7e"
+            ]
+        ]
+    },
+    {
+        "id": "4440356d0df79f7e",
+        "type": "mqtt out",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "Control Relevador",
+        "topic": "sistema_de_riego_inteligente/placa_1_rele/set",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "58e8acd2af0fc2ef",
+        "x": 890,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7dfd091a34ca22a0",
+        "type": "inject",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "f16da7860e93b1c5"
+            ]
+        ]
+    },
+    {
+        "id": "3badfd6d6d5944a4",
+        "type": "function",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "function 3",
+        "func": "let lluvia = null;\nlet humedad1 = null;\nlet humedad2 = null;\n\n\nfor (let row of msg.payload) {\n    switch (row.sensor_id) {\n        case 2:\n            humedad1 = parseFloat(row.value);\n            break;\n        case 4:\n            humedad2 = parseFloat(row.value);\n            break;\n        case 3:\n            lluvia = parseFloat(row.value);\n            break;\n    }\n}\n\n// Umbrales\nlet umbralHumedad = 10;\nlet hayLluvia = lluvia < 10; // depende de cómo mida el sensor\n\n// Decisión\nif (humedad1 < umbralHumedad && humedad2 < umbralHumedad && hayLluvia) {\n    msg.payload = \"true\";  // activar riego\n} else {\n    msg.payload = \"false\"; // no activar\n}\n\nmsg.topic = \"sistema_de_riego_inteligente/placa_1_rele/auto\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 420,
+        "wires": [
+            [
+                "dc7fb7c18781d757"
+            ]
+        ]
+    },
+    {
+        "id": "f16da7860e93b1c5",
+        "type": "postgresql",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "Humedad 2",
+        "query": "SELECT sensor_id, value\nFROM sensor_details\nWHERE sensor_id IN (2,3,4)\nAND record_at IN (\n    SELECT MAX(record_at)\n    FROM sensor_details\n    WHERE sensor_id IN (2,3,4)\n    GROUP BY sensor_id\n);",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 480,
+        "wires": [
+            [
+                "3badfd6d6d5944a4"
+            ]
+        ]
+    },
+    {
+        "id": "dc7fb7c18781d757",
+        "type": "mqtt out",
+        "z": "bdd40c2e4ca0e3d6",
+        "name": "Control Relevador",
+        "topic": "sistema_de_riego_inteligente/placa_1_rele/auto",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "58e8acd2af0fc2ef",
+        "x": 890,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "02827aca13ed9688",
+        "type": "postgresql",
+        "z": "d3b98b29e74d4538",
+        "name": "postgress_i5ux",
+        "query": "INSERT INTO actuator_details (actuator_id, user_id, value) VALUES ('4','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 680,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b2b4615ecf6e241",
+        "type": "mqtt in",
+        "z": "d3b98b29e74d4538",
+        "name": "",
+        "topic": "sistema_de_riego_inteligente/placa_1_led_azul",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "02827aca13ed9688"
+            ]
+        ]
+    },
+    {
+        "id": "f944d1feddc29d5a",
+        "type": "postgresql",
+        "z": "d3b98b29e74d4538",
+        "name": "postgress_i5ux",
+        "query": "INSERT INTO actuator_details (actuator_id, user_id, value) VALUES ('3','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 660,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47a4bbdff88bd79f",
+        "type": "mqtt in",
+        "z": "d3b98b29e74d4538",
+        "name": "",
+        "topic": "sistema_de_riego_inteligente/placa_1_led_rojo",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 300,
+        "wires": [
+            [
+                "f944d1feddc29d5a"
+            ]
+        ]
+    },
+    {
+        "id": "0a61aa2e8af9a9e0",
+        "type": "mqtt in",
+        "z": "201d42be487cd05b",
+        "name": "Lectura Nivel Agua",
+        "topic": "sensor/nivel_agua",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "5dcd3dcf2c769b17",
+                "c018587711c6982a"
+            ]
+        ]
+    },
+    {
+        "id": "5dcd3dcf2c769b17",
+        "type": "postgresql",
+        "z": "201d42be487cd05b",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES ('3','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 530,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "172ade43e97eeaf0",
+        "type": "ui_toast",
+        "z": "201d42be487cd05b",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "sensor/nivel_agua",
+        "name": "Sensor nivel de agua",
+        "x": 600,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c018587711c6982a",
+        "type": "function",
+        "z": "201d42be487cd05b",
+        "name": "function 1",
+        "func": "let valor = parseInt(msg.payload);\n\nif (isNaN(valor)) {\n    msg.payload = \"❌ Valor inválido recibido\";\n} else if (valor > 2000) {\n    msg.payload = \"🌧️ Notificación de lluvia:\\n¡Está lloviendo!\";\n} else {\n    msg.payload = \"☀️ Notificación de lluvia:\\nNo está lloviendo.\";\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "172ade43e97eeaf0"
+            ]
+        ]
+    },
+    {
+        "id": "c9de9db419d9c85d",
+        "type": "mqtt in",
+        "z": "5d9f58b548c58954",
+        "name": "Sensor humedad del suelo",
+        "topic": "sensor/humedad",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "a8dc9306e97550a7"
+            ]
+        ]
+    },
+    {
+        "id": "9d3427d049521508",
+        "type": "postgresql",
+        "z": "5d9f58b548c58954",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES ('2','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 630,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8dc9306e97550a7",
+        "type": "function",
+        "z": "5d9f58b548c58954",
+        "name": "function 2",
+        "func": "let rawValue = Number(msg.payload);\n\nlet humedad = Math.round(((4095 - rawValue) / 4095) * 100);\n\nmsg.payload = humedad; \nmsg.topic = \"Humedad\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "13a3d01dcc241366",
+                "9d3427d049521508"
+            ]
+        ]
+    },
+    {
+        "id": "13a3d01dcc241366",
+        "type": "ui_gauge",
+        "z": "5d9f58b548c58954",
+        "name": "",
+        "group": "ui_dashboard_group",
+        "order": 4,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad del Suelo",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "mqtt-in-humedad",
+        "type": "mqtt in",
+        "z": "5d9f58b548c58954",
+        "name": "Sensor humedad del suelo 2",
+        "topic": "utng/planta/sensores",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "function-humedad"
+            ]
+        ]
+    },
+    {
+        "id": "function-humedad",
+        "type": "function",
+        "z": "5d9f58b548c58954",
+        "name": "Extraer humedad del suelo",
+        "func": "// Convertir el mensaje a objeto si viene como string\nlet datos;\ntry {\n    if (typeof msg.payload === 'string') {\n        datos = JSON.parse(msg.payload);\n    } else {\n        datos = msg.payload;\n    }\n    \n    // Extraer el valor de humedad del suelo\n    const humedad = datos.humedad_suelo;\n    \n    // Verificar que sea un número válido\n    if (humedad !== undefined && !isNaN(humedad)) {\n        msg.payload = humedad;\n        msg.topic = \"Humedad Suelo\";\n        return msg;\n    } else {\n        node.warn(\"Valor de humedad inválido o no encontrado\");\n        return null;\n    }\n} catch(e) {\n    node.error(\"Error al procesar datos: \" + e.message);\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 400,
+        "wires": [
+            [
+                "postgresql-humedad",
+                "gauge-humedad"
+            ]
+        ]
+    },
+    {
+        "id": "postgresql-humedad",
+        "type": "postgresql",
+        "z": "5d9f58b548c58954",
+        "name": "Insertar humedad del suelo",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES ('4','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 680,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "gauge-humedad",
+        "type": "ui_gauge",
+        "z": "5d9f58b548c58954",
+        "name": "",
+        "group": "ui_dashboard_group",
+        "order": 5,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad del Suelo 2",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "30",
+        "seg2": "60",
+        "diff": false,
+        "className": "",
+        "x": 660,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "mqtt-in-dht11",
+        "type": "mqtt in",
+        "z": "ae5f1b6d080b4834",
+        "name": "Sensor DHT11 y Alarma",
+        "topic": "utng/planta/sensores",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "function-dht11-extract"
+            ]
+        ]
+    },
+    {
+        "id": "function-dht11-extract",
+        "type": "function",
+        "z": "ae5f1b6d080b4834",
+        "name": "Extraer datos DHT11 y estado alarma",
+        "func": "// Convertir el mensaje a objeto si viene como string\nlet datos;\ntry {\n    if (typeof msg.payload === 'string') {\n        datos = JSON.parse(msg.payload);\n    } else {\n        datos = msg.payload;\n    }\n    \n    // Crear mensajes separados para temperatura y humedad ambiente\n    let msgTemp = { \n        payload: datos.temperatura,\n        topic: \"Temperatura\"\n    };\n    \n    let msgHum = { \n        payload: datos.humedad_ambiente,\n        topic: \"Humedad Ambiente\"\n    };\n    \n    let msgAlarma = { \n        payload: datos.alarma_activa,\n        topic: \"Estado Alarma\"\n    };\n    \n    // Retornar los tres mensajes para procesarlos por separado\n    return [msgTemp, msgHum, msgAlarma];\n    \n} catch(e) {\n    node.error(\"Error al procesar datos: \" + e.message);\n    return [null, null, null];\n}",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "gauge-temperatura",
+                "postgresql-temperatura"
+            ],
+            [
+                "gauge-humedad-amb",
+                "postgresql-humedad-amb"
+            ],
+            [
+                "indicador-alarma",
+                "postgresql-alarma"
+            ]
+        ]
+    },
+    {
+        "id": "postgresql-temperatura",
+        "type": "postgresql",
+        "z": "ae5f1b6d080b4834",
+        "name": "Insertar temperatura",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES ('5','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 700,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "postgresql-humedad-amb",
+        "type": "postgresql",
+        "z": "ae5f1b6d080b4834",
+        "name": "Insertar humedad ambiente",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES ('6','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 700,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "postgresql-alarma",
+        "type": "postgresql",
+        "z": "ae5f1b6d080b4834",
+        "name": "Insertar estado alarma",
+        "query": "INSERT INTO actuator_details (actuator_id, user_id, value) VALUES ('2','1','{{{msg.payload}}}');",
+        "postgreSQLConfig": "0db620e6516a50ee",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 620,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "gauge-temperatura",
+        "type": "ui_gauge",
+        "z": "ae5f1b6d080b4834",
+        "name": "",
+        "group": "ui_dashboard_group",
+        "order": 6,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "15",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "gauge-humedad-amb",
+        "type": "ui_gauge",
+        "z": "ae5f1b6d080b4834",
+        "name": "",
+        "group": "ui_dashboard_group",
+        "order": 7,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad Ambiente",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "30",
+        "seg2": "60",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "indicador-alarma",
+        "type": "ui_led",
+        "z": "ae5f1b6d080b4834",
+        "order": 10,
+        "group": "ui_dashboard_group",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#000000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 640,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f7ffd36a00c20d3a",
+        "type": "ui_button",
+        "z": "6797fa4f360495b0",
+        "name": "Apagar Alarma",
+        "group": "ui_dashboard_group",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Apagar Alarma",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#f44336",
+        "className": "",
+        "icon": "fa-bell-slash",
+        "payload": "{\"comando\":\"apagar_alarma\"}",
+        "payloadType": "json",
+        "topic": "control",
+        "topicType": "str",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "d601c59e3b464a0e"
+            ]
+        ]
+    },
+    {
+        "id": "d601c59e3b464a0e",
+        "type": "mqtt out",
+        "z": "6797fa4f360495b0",
+        "name": "Enviar comando a ESP32",
+        "topic": "utng/planta/control",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "58e8acd2af0fc2ef",
+        "x": 380,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0ac20ee2d43b47d9",
+        "type": "mqtt in",
+        "z": "6797fa4f360495b0",
+        "name": "Monitorear estado alarma",
+        "topic": "utng/planta/sensores",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "6c41652f6cae43fd"
+            ]
+        ]
+    },
+    {
+        "id": "adea9450bdc2f39a",
+        "type": "ui_ui_control",
+        "z": "6797fa4f360495b0",
+        "name": "Controlar visibilidad botón",
+        "events": "all",
+        "x": 650,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69f4a3f4d5d4f4d9",
+        "type": "ui_text",
+        "z": "6797fa4f360495b0",
+        "group": "ui_dashboard_group",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "name": "Estado alarma texto",
+        "label": "Estado alarma:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 650,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d93634d8c26e12a9",
+        "type": "mqtt in",
+        "z": "6797fa4f360495b0",
+        "name": "Estado texto alarma",
+        "topic": "utng/planta/sensores",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "a946648659cb842c"
+            ]
+        ]
+    },
+    {
+        "id": "6c41652f6cae43fd",
+        "type": "function",
+        "z": "6797fa4f360495b0",
+        "name": "Procesar estado alarma",
+        "func": "// Convertir el mensaje a objeto si viene como string\nlet datos;\ntry {\n    if (typeof msg.payload === 'string') {\n        datos = JSON.parse(msg.payload);\n    } else {\n        datos = msg.payload;\n    }\n    \n    // Verificar si la alarma está activa\n    if (datos.alarma_activa) {\n        // Si la alarma está activa, habilitar el botón\n        return {\n            payload: true,\n            topic: \"enable\"\n        };\n    } else {\n        // Si la alarma está inactiva, deshabilitar el botón\n        return {\n            payload: false,\n            topic: \"enable\"\n        };\n    }\n} catch(e) {\n    node.error(\"Error al procesar datos: \" + e.message);\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "adea9450bdc2f39a"
+            ]
+        ]
+    },
+    {
+        "id": "a946648659cb842c",
+        "type": "function",
+        "z": "6797fa4f360495b0",
+        "name": "Formatear texto",
+        "func": "// Convertir el mensaje a objeto si viene como string\nlet datos;\ntry {\n    if (typeof msg.payload === 'string') {\n        datos = JSON.parse(msg.payload);\n    } else {\n        datos = msg.payload;\n    }\n    \n    // Verificar si la alarma está activa\n    if (datos.alarma_activa) {\n        // Si la alarma está activa\n        msg.payload = \"ACTIVA\";\n        msg.color = \"#ff0000\";\n    } else if (datos.desactivada_manualmente) {\n        // Si la alarma fue desactivada manualmente\n        msg.payload = \"APAGADA MANUALMENTE\";\n        msg.color = \"#0000ff\";\n    } else {\n        // Si la alarma está inactiva normalmente\n        msg.payload = \"INACTIVA\";\n        msg.color = \"#009900\";\n    }\n    \n    return msg;\n} catch(e) {\n    node.error(\"Error al procesar datos: \" + e.message);\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 220,
+        "wires": [
+            [
+                "69f4a3f4d5d4f4d9"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_temperatura",
+        "type": "mqtt in",
+        "z": "temperatura_notificacion",
+        "name": "Escuchar datos de temperatura",
+        "topic": "utng/planta/sensores",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "58e8acd2af0fc2ef",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "procesar_temperatura"
+            ]
+        ]
+    },
+    {
+        "id": "procesar_temperatura",
+        "type": "function",
+        "z": "temperatura_notificacion",
+        "name": "Verificar temperatura",
+        "func": "// Convertir el mensaje a objeto si viene como string\nlet datos;\ntry {\n    if (typeof msg.payload === 'string') {\n        datos = JSON.parse(msg.payload);\n    } else {\n        datos = msg.payload;\n    }\n    \n    // Obtener el contexto de flujo para mantener el estado\n    let flow = context.flow;\n    \n    // Obtener los estados anteriores del contexto\n    let ultimoEstado = flow.get('estadoTemperatura') || 'normal';\n    \n    // Verificar temperatura actual\n    let estadoActual = datos.temperatura < 20 ? 'baja' : 'normal';\n    \n    // Guardar el nuevo estado\n    flow.set('estadoTemperatura', estadoActual);\n    \n    // Si ha cambiado de normal a baja, enviar alerta\n    if (estadoActual === 'baja' && ultimoEstado === 'normal') {\n        // Crear mensaje para enviar correo\n        return {\n            payload: {\n                temperatura: datos.temperatura,\n                timestamp: new Date().toLocaleString()\n            },\n            topic: \"alerta_temperatura\"\n        };\n    }\n    \n    // No enviar nada si no se cumple la condición\n    return null;\n    \n} catch(e) {\n    node.error(\"Error al procesar datos: \" + e.message);\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "formatear_email"
+            ]
+        ]
+    },
+    {
+        "id": "formatear_email",
+        "type": "template",
+        "z": "temperatura_notificacion",
+        "name": "Formato correo",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<h2>⚠️ ALERTA: Temperatura Baja Detectada</h2>\n<p>Se ha detectado una temperatura por debajo del umbral en tu sistema de monitoreo de riego.</p>\n<hr>\n<p><strong>📊 Temperatura actual:</strong> {{payload.temperatura}}°C</p>\n<p><strong>📅 Fecha y hora:</strong> {{payload.timestamp}}</p>\n<hr>\n<p>🌡️ La temperatura está por debajo de los 20°C, lo cual puede afectar negativamente a tus plantas.</p>\n<p>🌿 Por favor, toma precauciones para proteger tus plantas del frío.</p>\n<p>🚨 Acciones recomendadas:</p>\n<ul>\n  <li>Mover las plantas a un lugar más cálido</li>\n  <li>Utilizar algún sistema de calefacción adicional</li>\n  <li>Cubrir las plantas con algún material protector</li>\n</ul>\n<p>Este mensaje ha sido enviado automáticamente por tu sistema de monitoreo de riego.</p>",
+        "output": "str",
+        "x": 440,
+        "y": 240,
+        "wires": [
+            [
+                "enviar_email"
+            ]
+        ]
+    },
+    {
+        "id": "enviar_email",
+        "type": "e-mail",
+        "z": "temperatura_notificacion",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": false,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "lopezcesar0428@gmail.com",
+        "dname": "Enviar alerta por correo",
+        "x": 640,
+        "y": 140,
+        "wires": []
+    }
+]
