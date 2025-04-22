@@ -17,14 +17,14 @@
 ### Sensores Hojas de Cálculo.
 |**Nombre**|**Sensor**|**Codigo**|
 |--|--|--|
-|Cesar Abraham|[Sensor DHT11]()|[Codigo](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
+|Cesar Abraham|[Sensor DHT11]()|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
 |Isaac|[![`Sensor Nivel de Agua`](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
 |Luis Manuel|||
 
 ## Codigos de sensores sistema de Riego.
 |**Codigo**|
 |--|
-|[Codigo Sensor de Humedad Suelo, DHT11 y Buzzer](/CodigoSistemaRiego/CodigoFinalDHT11_Humedad_Buzzer.py)|
+|[`Codigo Sensor de Humedad Suelo, DHT11 y Buzzer.py`](/CodigoSistemaRiego/CodigoFinalDHT11_Humedad_Buzzer.py)|
 |[`Codigo Sensor de Nivel de Agua  y Humedad Suelo.py`](/CodigoSistemaRiego/SensorHumedadYNivelAgua.py)|
 
 ## Coevaluación.
@@ -37,6 +37,7 @@ Mi compañero Isaac Cano realizó un buen trabajo consiguiendo un lugar en donde
 
 ### Isaac Cano Hernández
 
-Mi compañero Cesar Abraham, realizo un buen trabajao en 
+Mi compañero Cesar Abraham, tuvo un buen desempeño en el proyecto del sistema de riego. Siempre se mostró dispuesto a colaborar, participó activamente en varias partes del trabajo y nos ayudó a conseguir materiales cuando lo necesitábamos, lo cual fue muy útil. Sin embargo, en algunas ocasiones llegó tarde, se frustraba con facilidad cuando algo no funcionaba y hubo un momento en el que dejó parte de su tarea al resto del equipo. A pesar de esos detalles, su aporte fue valioso, aunque creo que podría mejorar en temas como la puntualidad, asumir completamente su parte del trabajo y manejar mejor la presión.
 
-Mi compañero Luis Manuel
+Mi compañero Luis Manuel, tuvo un buen desempeño general en el proyecto. Siempre estuvo dispuesto a ayudar y fue ingenioso para encontrar soluciones rápidas cuando surgían errores, lo cual ayudó a avanzar en varios momentos. Sin embargo, tuvo problemas con la puntualidad y, cuando las cosas no salían como esperaba, se desesperaba y a veces reaccionaba con molestia, lo que afectaba un poco el ambiente del equipo. Aunque su participación fue útil, debe mejorar en el manejo de la frustración y en su compromiso con los tiempos del grupo.
+
