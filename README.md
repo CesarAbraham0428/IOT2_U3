@@ -19,7 +19,7 @@
 |--|--|--|
 |Cesar Abraham|[Sensor DHT11](https://drive.google.com/file/d/1WExeR7v4lGsBS89xV08NBe9lGUByHLjx/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
 |Isaac|[![`Sensor Nivel de Agua`](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
-|Luis Manuel|||
+|Luis Manuel|[Sensor KY022](https://drive.google.com/file/d/1a6sqMONPzCDYV34vSWFHVOsdguAs4AYM/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/SensorKY_022.py)|
 
 ## Codigos de sensores sistema de Riego.
 |**Codigo**|
