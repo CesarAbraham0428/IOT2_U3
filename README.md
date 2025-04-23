@@ -30,11 +30,12 @@
 
 ## Diagramas de conexión del Sistema de Riego.
 
-![Diagrama de la Alarma y el sensor de Humedad](/assets/AlarmaYHumedad.png)
-[Link del diagrama de la Alarma y Sensor de Humedad](https://app.cirkitdesigner.com/project/a1cc3629-8e77-4b2b-bfe8-43f7c3ae7f4d)
+|**Diagrama**|**Imagen**|**Link Cirkit**|
+|--|--|--|
+|Diagrama de la Alarma y el sensor de Humedad|<img src="assets/AlarmaYHumedad.png" width="600"/>|[`Link del diagrama de la Alarma y Sensor de Humedad`](https://app.cirkitdesigner.com/project/a1cc3629-8e77-4b2b-bfe8-43f7c3ae7f4d)|
+|Diagrama de la Bomba y Flujo de Agua|<img src="assets/BombaYFlujoAgua.png" width="600"/>|[`Link del diagrama de la Bomba de Agua y Flujo de Agua`](https://app.cirkitdesigner.com/project/e0a767a8-0c34-4e84-8ac1-d186211fcbc0)|
+|Diagrama del Sensor de Humedad y Nivel de Agua|<img src="assets/SensorHumedadYNivelAgua.png" width="600"/>|[`Link del diagrama del Sensor de Humedad y Nivel de Agua`](https://app.cirkitdesigner.com/project/ad682964-3f89-450a-8c35-7a92780d209b)|
 
-![Diagrama de la Alarma y el sensor de Humedad](/assets/BombaYFlujoAgua.png)
-[Link del diagrama de la Bomba de Agua y Flujo de Agua](https://app.cirkitdesigner.com/project/e0a767a8-0c34-4e84-8ac1-d186211fcbc0)
 
 ### Codigo del Flujo de Node Red.
 
