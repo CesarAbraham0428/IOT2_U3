@@ -17,7 +17,7 @@
 ### Sensores Hojas de Cálculo.
 |**Nombre**|**Sensor**|**Codigo**|
 |--|--|--|
-|Cesar Abraham|[Sensor DHT11](https://drive.google.com/file/d/1WExeR7v4lGsBS89xV08NBe9lGUByHLjx/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
+|Cesar Abraham|[[Sensor DHT11](https://drive.google.com/file/d/1WExeR7v4lGsBS89xV08NBe9lGUByHLjx/view?usp=sharing)](https://drive.google.com/file/d/10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
 |Isaac|[Sensor Nivel de Agua](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
 |Luis Manuel|[Sensor KY022](https://drive.google.com/file/d/1a6sqMONPzCDYV34vSWFHVOsdguAs4AYM/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/SensorKY_022.py)|
 
@@ -40,7 +40,9 @@
 
 |**Video**|
 |--|
-|[![Ver video](https://drive.google.com/thumbnail?id=10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D)](https://drive.google.com/uc?export=preview&id=10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D)|
+|[Funcionamiento Video](https://drive.google.com/file/d/10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D/view?usp=drive_link)|
+
+
 
 ### Revisión del sistema por una persona de la comunidad
 
