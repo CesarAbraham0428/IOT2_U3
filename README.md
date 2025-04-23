@@ -18,7 +18,7 @@
 |**Nombre**|**Sensor**|**Codigo**|
 |--|--|--|
 |Cesar Abraham|[Sensor DHT11](https://drive.google.com/file/d/1WExeR7v4lGsBS89xV08NBe9lGUByHLjx/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
-|Isaac|[![`Sensor Nivel de Agua`](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
+|Isaac|[[`Sensor Nivel de Agua`](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
 |Luis Manuel|[Sensor KY022](https://drive.google.com/file/d/1a6sqMONPzCDYV34vSWFHVOsdguAs4AYM/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/SensorKY_022.py)|
 
 ## Codigos de sensores sistema de Riego.
@@ -27,6 +27,11 @@
 |[`Codigo Sensor de Humedad Suelo, DHT11 y Buzzer.py`](/CodigoSistemaRiego/CodigoFinalDHT11_Humedad_Buzzer.py)|
 |[`Codigo Sensor de Nivel de Agua  y Humedad Suelo.py`](/CodigoSistemaRiego/SensorHumedadYNivelAgua.py)|
 |[`Codigo Sensor de flujo de agua  y Control de relevador.py`](/CodigoMicroPythonSistemaRiego/Codigo_control_de_relevador_y_flujo_de_agua.py)|
+
+## Diagramas de conexión del Sistema de Riego.
+
+![Diagrama de la Alarma y el sensor de Humedad](/assets/AlarmaYHumedad.png)
+[Link del diagrama de la Alarma y Sensor de Humedad](https://app.cirkitdesigner.com/project/a1cc3629-8e77-4b2b-bfe8-43f7c3ae7f4d)
 
 ### Codigo del Flujo de Node Red.
 
