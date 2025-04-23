@@ -48,7 +48,7 @@
 
 |**Carta Aprobación**|**Video**|
 |--|--|
-|||
+|<img src="assets/CartaAprobacion.jpeg" width="300"/>|[Demostracion Video](https://drive.google.com/file/d/1wrH6Z0WlrJnoSdoyzlkTnyONO03rGIxm/view?usp=drive_link)|
 
 ### Codigo del Flujo de Node Red.
 
