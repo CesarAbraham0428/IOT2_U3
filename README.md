@@ -17,7 +17,7 @@
 ### Sensores Hojas de Cálculo.
 |**Nombre**|**Sensor**|**Codigo**|
 |--|--|--|
-|Cesar Abraham|[[Sensor DHT11](https://drive.google.com/file/d/1WExeR7v4lGsBS89xV08NBe9lGUByHLjx/view?usp=sharing)](https://drive.google.com/file/d/10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
+|Cesar Abraham|[Sensor DHT11](https://drive.google.com/file/d/1WExeR7v4lGsBS89xV08NBe9lGUByHLjx/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/TemperaturaHojaDeCalculo.py)|
 |Isaac|[Sensor Nivel de Agua](https://drive.google.com/file/d/1llpEefqhAhDUOVI9CU5XQdxaRRH--hib/view?usp=drive_link)|[`Codigo.py`](/CodigoActividadesClase/SensorNivelAgua.py)|
 |Luis Manuel|[Sensor KY022](https://drive.google.com/file/d/1a6sqMONPzCDYV34vSWFHVOsdguAs4AYM/view?usp=sharing)|[`Codigo.py`](/CodigoActividadesClase/SensorKY_022.py)|
 
@@ -36,15 +36,15 @@
 |Diagrama de la Bomba y Flujo de Agua|<img src="assets/BombaYFlujoAgua.png" width="600"/>|[`Link del diagrama de la Bomba de Agua y Flujo de Agua`](https://app.cirkitdesigner.com/project/e0a767a8-0c34-4e84-8ac1-d186211fcbc0)|
 |Diagrama del Sensor de Humedad y Nivel de Agua|<img src="assets/SensorHumedadYNivelAgua.png" width="600"/>|[`Link del diagrama del Sensor de Humedad y Nivel de Agua`](https://app.cirkitdesigner.com/project/ad682964-3f89-450a-8c35-7a92780d209b)|
 
-### Video Funcionamineto Sistema de Riego
+## Funcionamiento del Sistema de Riego Automatizado.
 
 |**Video**|
 |--|
-|[Funcionamiento Video](https://drive.google.com/file/d/10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D/view?usp=drive_link)|
+|[Video del Funcionamiento](https://drive.google.com/file/d/10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D/view?usp=drive_link)|
 
 
 
-### Revisión del sistema por una persona de la comunidad
+## Revisión del sistema por una persona de la comunidad.
 
 |**Carta Aprobación**|**Video**|
 |--|--|
