@@ -36,6 +36,17 @@
 |Diagrama de la Bomba y Flujo de Agua|<img src="assets/BombaYFlujoAgua.png" width="600"/>|[`Link del diagrama de la Bomba de Agua y Flujo de Agua`](https://app.cirkitdesigner.com/project/e0a767a8-0c34-4e84-8ac1-d186211fcbc0)|
 |Diagrama del Sensor de Humedad y Nivel de Agua|<img src="assets/SensorHumedadYNivelAgua.png" width="600"/>|[`Link del diagrama del Sensor de Humedad y Nivel de Agua`](https://app.cirkitdesigner.com/project/ad682964-3f89-450a-8c35-7a92780d209b)|
 
+### Video Funcionamineto Sistema de Riego
+
+|**Video**|
+|--|
+|[![Ver video](https://drive.google.com/thumbnail?id=10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D)](https://drive.google.com/uc?export=preview&id=10ieiqJwYaaoIXzt9xh5uz4VM-Cgqgm7D)|
+
+### Revisión del sistema por una persona de la comunidad
+
+|**Carta Aprobación**|**Video**|
+|--|--|
+|||
 
 ### Codigo del Flujo de Node Red.
 
